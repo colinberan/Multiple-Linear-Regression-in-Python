@@ -1,12 +1,12 @@
 # Multiple Linear Regression
 
-# Importing the libraries we will s=sue
+# Importing the libraries we will use
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the dataset
-dataset = pd.read_csv('Data Set Here')
+dataset = pd.read_csv('50_Startups.csv')
 X = dataset.iloc[:, :-1].values #Use all rows and all but last column
 y = dataset.iloc[:, 4].values #Use all rows in 4th column
 
